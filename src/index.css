@@ -1,0 +1,398 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{
+  --PRIMARYCOLOR:black;
+}
+
+.body{
+  margin: 0;
+  padding: 0;
+
+}
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+.dot {
+  height: 20px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
+}
+.leftnav {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-bottom: 30px;
+  color: #222222;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 13px;
+}
+.logo {
+  margin-bottom: -50px;
+  height: 100px;
+  width: 60px;
+  border-radius: 50%;
+}
+.sidelogo {
+  height: 50px;
+  width: 24px;
+}
+.rightnav {
+  display: flex;
+  gap: 5px;
+  padding-bottom: 30px;
+  color: #222222;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+}
+.rightmostnav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.overallnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px;
+  padding-bottom: 0px;
+}
+.searchicon {
+  height: 25px;
+  width: 25px;
+}
+.searchbar {
+  height: 30px;
+  width: 200px;
+  border: transparent;
+  background-color: transparent;
+  border-radius: 10px;
+  outline: none;
+  padding: 5px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+}
+.secondrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 5px;
+}
+.secondnavlist {
+  padding-left: 200px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-weight: 500;
+  font-size: 16px;
+}
+.searchbox {
+  display: flex;
+  gap: 1px;
+  align-items: center;
+  border-bottom: 1px solid #222222;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-style: underline;
+  font-size: 13px;
+}
+.thirdnav {
+  display: flex;
+  gap: 120px;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 20px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 450;
+  font-style: normal;
+  font-size: 14px;
+}
+.fimgcontainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 1px 20px;
+}
+.firstimage {
+  height: 600px;
+  width: 900px;
+  background-image: url("https://image.hm.com/content/dam/global_campaigns/season_00/ladies/6030-diwali/6030-DIWALI-WOMEN-3x2-1-hm-festive-capsule-w.jpg?imwidth=1536");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+  padding-bottom: 40px;
+  font-style: normal;
+  font-size: 45px;
+}
+.whitebut {
+  height: 35px;
+  width: 120px;
+  background-color: white;
+  color: #222222;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 14px;
+  border: transparent;
+  outline: none;
+}
+.adcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 20px;
+}
+.ad {
+  height: 100px;
+  width: 900px;
+  background-image: url("https://www2.hm.com/content/dam/hm/Seasonal%20Images%20Email/september-2020/9031_LocalActivation_autumn20_SB__07__3x1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  padding-bottom: 20px;
+  font-style: normal;
+  font-size: 10px;
+}
+.butcont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.transbut {
+  height: 35px;
+  width: 60px;
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  font-family: "DM Sans", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 14px;
+  border: 1px solid rgb(0, 0, 0);
+  outline: none;
+}
+.adheading {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 14px;
+  margin-bottom: -8px;
+}
+.secondimage {
+  height: 600px;
+  width: 850px;
+  background-image: url("https://image.hm.com/content/dam/global_campaigns/season_00/men/mp50ceb/MP50CEB-Trousers-3x2-1.jpg?imwidth=1536");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+  padding-bottom: 40px;
+  padding-left: 50px;
+  font-style: normal;
+  font-size: 45px;
+}
+.manheading {
+  width: 300px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 45px;
+  margin-bottom: 0px;
+}
+.manlowerheading {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 14px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.cards {
+  display: flex;
+  padding: 2px 2px;
+  height: 180px;
+  gap: 5px;
+}
+
+.slidercontainer {
+  width: 850px;
+  position: absolute;
+  top: 1780px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  margin-bottom: 0px;
+  margin-right: 750px;
+}
+.sidelogo1 {
+  height: 25px;
+  width: 15px;
+  margin-top: 80px;
+  padding: 20px;
+}
+.file {
+  display: flex;
+  gap: 50px;
+  margin: 0 10px;
+  padding: 10px;
+  justify-content: center;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  box-sizing: border-box;
+  font-size: 11px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.file:hover {
+  transform: scale(1.05); /* Slightly increase the size */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Add shadow to create pop effect */
+}
+/* Targeting the left and right arrows */
+.slick-prev:before,
+.slick-next:before {
+  color: black; /* Change to your desired color */
+}
+.girlcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px 20px;
+}
+.girlbanner {
+  height: 600px;
+  width: 900px;
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.4),
+      rgba(255, 255, 255, 11%)
+    ),
+    url("https://image.hm.com/content/dam/global_campaigns/season_00/kids/4160b/4160B-3x2-autumn-winter-kids-2024-teaser-2.jpg?imwidth=1536");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 45px;
+  margin-top: 280px;
+  padding-bottom: 50px;
+}
+.girlbanner1 {
+  height: 600px;
+  width: 900px;
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.4),
+      rgba(255, 255, 255, 11%)
+    ),
+    url("https://image.hm.com/content/dam/global_campaigns/season_00/ladies/ws50a/WS50A_3x2-1.jpg?imwidth=1536");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 45px;
+  margin-top: 25px;
+  padding-bottom: 50px;
+}
+.lastad {
+  height: 100px;
+  width: 900px;
+  background-image: url("https://lp2.hm.com/hmgoepprod?source=url[https://www2.hm.com/content/dam/hm/wgb_content/gb_home_bedlinen_MP_2x3.jpg.jpg]&scale=size[960]&sink=format[jpeg],quality[80]");
+  body {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+
+    .fullpage {
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .righttop {
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .rightside {
+      gap: 10px;
+    }
+
+    .prodcontainer {
+      justify-content: center;
+    }
+
+    .prodcard {
+      width: 100%;
+    }
+
+    .rpslidercontainer {
+      width: 100%;
+      margin-left: 0;
+    }
+
+    .rpfile {
+      gap: 20px;
+    }
+
+    .totalpart {
+      padding-left: 0;
+    }
+  }
