@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 :root{
   --PRIMARYCOLOR:black;
 }
@@ -7,7 +8,7 @@
   padding: 0;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
 .dot {
   height: 20px;
   width: 25px;
