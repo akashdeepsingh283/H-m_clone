@@ -11,7 +11,7 @@ import Lastimage from '../components/lastimage'
 import Bottom from '../components/Bottom'
 import Latestcollection from '../components/Latestcollection'
 import {useContext} from 'react'
-import { DarkModeContext } from '../context/Darkmodecontext'
+import { DarkModeContext } from '../context/DarkModeContext'
 
 const Home = ({darkmodehome}) => {
   const {isDarkMode}=useContext(DarkModeContext);

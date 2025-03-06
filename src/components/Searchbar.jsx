@@ -2,7 +2,7 @@ import React from 'react';
 import { useContext } from 'react';
 import { ShopContext } from '../context/ShopContext';
 import searchicon from '/search.svg';
-import { DarkModeContext } from '../context/Darkmodecontext';
+import { DarkModeContext } from '../context/DarkModeContext';
 
 const Seachbar = () => {
   const { search, setsearch } = useContext(ShopContext);

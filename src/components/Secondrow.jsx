@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import { NavLink } from 'react-router-dom'
 import Searchbar from './Searchbar'
 import {useContext} from 'react'
-import { DarkModeContext } from '../context/Darkmodecontext'
+import { DarkModeContext } from '../context/DarkModeContext'
 
 const Secondrow = () => {
   const {isDarkMode}=useContext(DarkModeContext);

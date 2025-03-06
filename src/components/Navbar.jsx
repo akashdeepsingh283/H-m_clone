@@ -8,7 +8,7 @@ import { NavLink } from 'react-router-dom'
 import { ShopContext } from '../context/ShopContext'
 import { useContext } from 'react'
 import Darkmode from './Darkmode'
-import { DarkModeContext } from '../context/Darkmodecontext';
+import { DarkModeContext } from '../context/DarkModeContext';
 
 
 

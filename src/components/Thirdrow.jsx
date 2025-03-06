@@ -1,6 +1,6 @@
 import React from 'react'
 import {useContext} from 'react'
-import { DarkModeContext } from '../context/Darkmodecontext'
+import { DarkModeContext } from '../context/DarkModeContext'
 
 const Thirdrow = () => {
   const {isDarkMode}=useContext(DarkModeContext);
