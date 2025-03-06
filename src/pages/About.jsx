@@ -17,7 +17,6 @@ const About = () => {
         h1: {
             textAlign: 'center',
             fontSize: '42px',
-            color: '#111',
             marginBottom: '20px',
             letterSpacing: '1px',
             textTransform: 'uppercase',
